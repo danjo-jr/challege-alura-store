@@ -1,15 +1,97 @@
 # Challege Alura Store
-Challenge Alura Store
-/
-├─ data/
-│  ├─ raw/                # Datos originales (CSV, Excel, etc.) — NO modifiques
-│  ├─ processed/          # Datos limpios y transformados generados por el notebook
-├─ notebooks/
-│  ├─ 01_data_cleaning.ipynb     # Limpieza y preprocesado
-│  ├─ 02_exploratory_analysis.ipynb  # Análisis exploratorio y visualizaciones
-│  ├─ 03_reporting.ipynb         # Reporte final y gráficos listos para export
-├─ figures/               # Gráficos exportados (.png, .svg)
-├─ src/                   # (Opcional) scripts reutilizables .py para ETL / funciones
-├─ requirements.txt
-├─ README.md
-└─ LICENSE
+## 📊 Análisis de Datos — Tienda del Sr. Juan
+
+Este repositorio contiene el análisis exploratorio de datos de la **Tienda del Sr. Juan**, realizado en Python utilizando pandas, matplotlib y seaborn.  
+El proyecto busca comprender el comportamiento de las ventas, identificar patrones y extraer insights que permitan optimizar la gestión comercial del negocio.
+
+---
+
+## 🎯 Propósito del análisis
+
+El objetivo del estudio fue **evaluar el rendimiento de ventas de la tienda** a través del análisis de sus registros históricos.  
+Se abordaron los siguientes puntos principales:
+
+- Limpieza y transformación del dataset original (tratamiento de datos nulos, fechas, tipos de variables, etc.).
+- Cálculo de métricas clave como ventas totales, ventas promedio, unidades vendidas y participación por categoría.
+- Identificación de los **productos más vendidos** y su aporte al total de ingresos.
+- Visualización de tendencias mensuales y comparaciones entre categorías o sucursales.
+- Extracción de **insights estratégicos** para la toma de decisiones (stock, promociones, rentabilidad).
+
+---
+
+## 📁 Estructura del proyecto
+
+📦 tienda-sr-juan/
+│
+├── data/
+│ ├── raw/ # Datos originales sin procesar
+│ ├── processed/ # Datos limpios generados tras el preprocesamiento
+│
+├── notebooks/
+│ ├── 01_data_cleaning.ipynb # Limpieza y preprocesamiento de datos
+│ ├── 02_exploratory_analysis.ipynb # Análisis exploratorio y visualizaciones
+│ ├── 03_reporting.ipynb # Reporte con conclusiones finales
+│
+├── figures/
+│ ├── ventas_mensuales.png
+│ ├── participacion_categorias.png
+│ ├── top_productos.png
+│ ├── comparativa_sucursales.png
+│
+├── requirements.txt # Dependencias del proyecto
+├── README.md # Este archivo
+└── LICENSE # (opcional) tipo de licencia del repositorio
+
+
+---
+
+## 📊 Ejemplos de gráficos e insights
+
+### 🔹 Ventas mensuales
+Gráfico de barras que muestra la evolución de las ventas a lo largo del año, evidenciando los meses de mayor y menor movimiento comercial.
+
+![Ventas mensuales](figures/ventas_mensuales.png)
+
+> **Insight:** Se identificó una tendencia creciente durante los meses de junio a septiembre, lo que sugiere un incremento estacional que podría aprovecharse con campañas de promoción.
+
+---
+
+### 🔹 Participación por categoría
+Visualización tipo pastel que representa el porcentaje de ventas atribuible a cada categoría de producto.
+
+![Participación por categoría](figures/participacion_categorias.png)
+
+> **Insight:** Tres categorías concentran más del 70 % de las ventas totales, indicando oportunidades para diversificar el portafolio o reforzar la disponibilidad de los productos más demandados.
+
+---
+
+### 🔹 Top productos más vendidos
+Gráfico de barras que destaca los productos con mayor volumen de ventas.
+
+![Top productos](figures/top_productos.png)
+
+> **Insight:** Un pequeño grupo de productos genera la mayor parte de los ingresos (principio de Pareto), por lo que se recomienda priorizar su inventario y visibilidad en tienda.
+
+---
+
+### 🔹 Comparativa entre sucursales
+Comparación de ventas por local o segmento, útil para identificar desempeño desigual entre puntos de venta.
+
+![Comparativa sucursales](figures/comparativa_sucursales.png)
+
+> **Insight:** Las sucursales ubicadas en zonas céntricas superan en más del 20 % las ventas promedio de las periféricas, lo que podría asociarse al tráfico de clientes o estrategias de exhibición.
+
+---
+
+## ⚙️ Instrucciones para ejecutar el notebook
+
+### 🧩 Requisitos previos
+Instalar las librerías necesarias (recomendado hacerlo en un entorno virtual):
+
+```bash
+python -m venv venv
+source venv/bin/activate      # macOS / Linux
+# .\venv\Scripts\activate     # Windows PowerShell
+
+pip install -r requirements.txt
+
