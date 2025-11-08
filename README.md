@@ -38,7 +38,7 @@ tienda-sr-juan/
 ├── requirements.txt # Dependencias del proyecto
 ├── README.md # Este archivo
 └── LICENSE # (opcional) tipo de licencia del repositorio
-
+```bash
 
 ---
 
@@ -81,7 +81,7 @@ Comparación de ventas por local o segmento, útil para identificar desempeño d
 ### 🧩 Requisitos previos
 Instalar las librerías necesarias (recomendado hacerlo en un entorno virtual):
 
-```bash
+
 python -m venv venv
 source venv/bin/activate      # macOS / Linux
 # .\venv\Scripts\activate     # Windows PowerShell
