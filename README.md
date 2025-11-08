@@ -58,13 +58,6 @@ Comparación de ventas por local o segmento, útil para identificar desempeño d
 ### 🧩 Requisitos previos
 Instalar las librerías necesarias (recomendado hacerlo en un entorno virtual):
 
-
-python -m venv venv
-source venv/bin/activate      # macOS / Linux
-# .\venv\Scripts\activate     # Windows PowerShell
-
-pip install -r requirements.txt
-
 ---
 
 ## 📁 Estructura del proyecto
@@ -82,8 +75,6 @@ tienda-sr-juan/
 │   ├── participacion_categorias.png
 │   ├── top_productos.png
 │   └── comparativa_sucursales.png
-├── requirements.txt # Dependencias del proyecto
-├── README.md # Este archivo
-└── LICENSE # (opcional) tipo de licencia del repositorio
+└── README.md # Este archivo
 
 
