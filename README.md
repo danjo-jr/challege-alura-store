@@ -21,24 +21,7 @@ Se abordaron los siguientes puntos principales:
 
 ## 📁 Estructura del proyecto
 
-```text
-tienda-sr-juan/
-├── data/
-│   ├── raw/ # Datos originales sin procesar
-│   └── processed/ # Datos limpios generados tras el preprocesamiento
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb # Limpieza y preprocesamiento de datos
-│   ├── 02_exploratory_analysis.ipynb # Análisis exploratorio y visualizaciones
-│   └── 03_reporting.ipynb # Reporte con conclusiones finales
-├── figures/
-│   ├── ventas_mensuales.png
-│   ├── participacion_categorias.png
-│   ├── top_productos.png
-│   └── comparativa_sucursales.png
-├── requirements.txt # Dependencias del proyecto
-├── README.md # Este archivo
-└── LICENSE # (opcional) tipo de licencia del repositorio
-```bash
+
 
 ---
 
