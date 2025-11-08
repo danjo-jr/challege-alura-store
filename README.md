@@ -21,23 +21,20 @@ Se abordaron los siguientes puntos principales:
 
 ## 📁 Estructura del proyecto
 
-📦 tienda-sr-juan/
-│
+```text
+tienda-sr-juan/
 ├── data/
-│ ├── raw/ # Datos originales sin procesar
-│ ├── processed/ # Datos limpios generados tras el preprocesamiento
-│
+│   ├── raw/ # Datos originales sin procesar
+│   └── processed/ # Datos limpios generados tras el preprocesamiento
 ├── notebooks/
-│ ├── 01_data_cleaning.ipynb # Limpieza y preprocesamiento de datos
-│ ├── 02_exploratory_analysis.ipynb # Análisis exploratorio y visualizaciones
-│ ├── 03_reporting.ipynb # Reporte con conclusiones finales
-│
+│   ├── 01_data_cleaning.ipynb # Limpieza y preprocesamiento de datos
+│   ├── 02_exploratory_analysis.ipynb # Análisis exploratorio y visualizaciones
+│   └── 03_reporting.ipynb # Reporte con conclusiones finales
 ├── figures/
-│ ├── ventas_mensuales.png
-│ ├── participacion_categorias.png
-│ ├── top_productos.png
-│ ├── comparativa_sucursales.png
-│
+│   ├── ventas_mensuales.png
+│   ├── participacion_categorias.png
+│   ├── top_productos.png
+│   └── comparativa_sucursales.png
 ├── requirements.txt # Dependencias del proyecto
 ├── README.md # Este archivo
 └── LICENSE # (opcional) tipo de licencia del repositorio
@@ -50,7 +47,6 @@ Se abordaron los siguientes puntos principales:
 ### 🔹 Ventas mensuales
 Gráfico de barras que muestra la evolución de las ventas a lo largo del año, evidenciando los meses de mayor y menor movimiento comercial.
 
-![Ventas mensuales](figures/ventas_mensuales.png)
 
 > **Insight:** Se identificó una tendencia creciente durante los meses de junio a septiembre, lo que sugiere un incremento estacional que podría aprovecharse con campañas de promoción.
 
@@ -59,7 +55,6 @@ Gráfico de barras que muestra la evolución de las ventas a lo largo del año, 
 ### 🔹 Participación por categoría
 Visualización tipo pastel que representa el porcentaje de ventas atribuible a cada categoría de producto.
 
-![Participación por categoría](figures/participacion_categorias.png)
 
 > **Insight:** Tres categorías concentran más del 70 % de las ventas totales, indicando oportunidades para diversificar el portafolio o reforzar la disponibilidad de los productos más demandados.
 
@@ -68,7 +63,6 @@ Visualización tipo pastel que representa el porcentaje de ventas atribuible a c
 ### 🔹 Top productos más vendidos
 Gráfico de barras que destaca los productos con mayor volumen de ventas.
 
-![Top productos](figures/top_productos.png)
 
 > **Insight:** Un pequeño grupo de productos genera la mayor parte de los ingresos (principio de Pareto), por lo que se recomienda priorizar su inventario y visibilidad en tienda.
 
@@ -77,7 +71,6 @@ Gráfico de barras que destaca los productos con mayor volumen de ventas.
 ### 🔹 Comparativa entre sucursales
 Comparación de ventas por local o segmento, útil para identificar desempeño desigual entre puntos de venta.
 
-![Comparativa sucursales](figures/comparativa_sucursales.png)
 
 > **Insight:** Las sucursales ubicadas en zonas céntricas superan en más del 20 % las ventas promedio de las periféricas, lo que podría asociarse al tráfico de clientes o estrategias de exhibición.
 
