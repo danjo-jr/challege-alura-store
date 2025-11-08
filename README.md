@@ -21,7 +21,6 @@ Se abordaron los siguientes puntos principales:
 
 ## 📁 Estructura del proyecto
 
-```text
 tienda-sr-juan/
 ├── data/
 │   ├── raw/ # Datos originales sin procesar
